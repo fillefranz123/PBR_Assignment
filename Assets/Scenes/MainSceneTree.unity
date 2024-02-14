@@ -4315,7 +4315,7 @@ PrefabInstance:
     - target: {fileID: 7412442943045775309, guid: 52b4775c07dc89e49abbc8252a5b9999,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.6170044
+      value: 3.166
       objectReference: {fileID: 0}
     - target: {fileID: 7412442943045775309, guid: 52b4775c07dc89e49abbc8252a5b9999,
         type: 3}
@@ -4325,7 +4325,7 @@ PrefabInstance:
     - target: {fileID: 7412442943045775309, guid: 52b4775c07dc89e49abbc8252a5b9999,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.4179993
+      value: 7.877
       objectReference: {fileID: 0}
     - target: {fileID: 7412442943045775309, guid: 52b4775c07dc89e49abbc8252a5b9999,
         type: 3}
@@ -7004,7 +7004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  m_UsePipelineSettings: 0
+  m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
   m_LightLayerMask: 1
   m_CustomShadowLayers: 0
@@ -55354,7 +55354,7 @@ Light:
     m_Strength: 1
     m_Bias: 0
     m_NormalBias: 0
-    m_NearPlane: 0.1
+    m_NearPlane: 0.05
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -59380,7 +59380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  m_UsePipelineSettings: 0
+  m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
   m_LightLayerMask: 1
   m_CustomShadowLayers: 0
