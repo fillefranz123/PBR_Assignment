@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2140120638796938025
 Transform:
@@ -79,7 +79,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1592005486123004379
 Transform:
@@ -89,7 +89,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9111042866109437729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.757, z: 0}
+  m_LocalPosition: {x: 0, y: -0.771, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -107,7 +107,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.88811207, b: 0.5801887, a: 1}
   m_Intensity: 0.5
   m_Range: 0.5
   m_SpotAngle: 30
@@ -142,15 +142,15 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -250,6 +250,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Latern_Hanging (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 05bee992355f16e46b9a9364011def87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bee992355f16e46b9a9364011def87, type: 3}
 --- !u!23 &1017726380686197332 stripped
@@ -330,6 +335,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Latern_Hanging
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 05bee992355f16e46b9a9364011def87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bee992355f16e46b9a9364011def87, type: 3}
@@ -430,6 +440,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lantern_Hanging_LOD1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7bd0997c984a80342880502e317960ee,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bd0997c984a80342880502e317960ee, type: 3}
